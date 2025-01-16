@@ -7,6 +7,14 @@ public class Main {
             i++;
         }
         while (i < 5);
+
+
+        for (int q = 1; q <= 3; q++) {
+            for (int m = 1; m <= 3; m++) {
+                System.out.println("Outer: " + q + ", Inner: " + m);
+
+            }
+        }
     }
 }
 
