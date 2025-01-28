@@ -1,5 +1,25 @@
 import static java.lang.Math.max;
 
+public class Main{
+
+    public static void main(String [] args) {
+
+        int[] findValueType = {21, 24, 55, 66, 33, 14, 5, 8, 99, 12, 11, 17, 18};
+
+        for (int value : findValueType) {
+
+            if (value % 2 == 0) {
+                System.out.println(findValueType + " is even.");
+            } else
+                System.out.println(findValueType + " is odd.");
+
+        }
+    }
+    }
+
+
+
+
 /*public class Main{
     public static void main(String [] args){
         int[] values = {10, 20, 30, 40, 50};
